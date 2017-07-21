@@ -1,0 +1,79 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.relogio{
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #333;
+    color: black;
+}
+
+.data{
+    font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    font-size: 36px; 
+    text-align: center;
+}
+
+ul{
+    width: 880px;
+    margin:0 -148px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+ul li{
+    display: inline;
+    font-size: 5em;
+    text-align: center;
+    font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    /* text-shadow: 0 0 5px #00c6ff;  */
+}
+
+.pontos{
+    position: relative;
+    -moz-animation: mover 1s ease infinite;
+    -webkit-animation: mover 1s ease infinite;
+    padding: 10px;
+    padding-right: 10px;
+}
+
+/* PARTE DA ANIMAÇÃ */
+/* text-shadow: 0 0 20px #00c6ff; */
+
+@-webkit-keyframes mover{
+    0%{
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+
+    50%{
+        opacity: 1.0;
+        text-shadow: none;
+    }
+
+    100%{
+       opacity: 1.0;
+       text-shadow: 0 0 20px #00c6ff;
+    }
+}
+
+@-moz-keyframes mover{
+    0%{
+        opacity: 1.0;
+    }
+
+    50%{
+        opacity: 1.0;
+        text-shadow: none;
+    }
+
+    100%{
+       opacity: 1.0;
+    }
+}
+
